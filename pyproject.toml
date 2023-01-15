@@ -2,11 +2,13 @@
 name = "mew"
 version = "0.1.0"
 description = ""
-authors = ["Hengda Shi <hengda.shi@engineering.ucla.edu>"]
+authors = ["Hengda Shi <hengda.shi@cs.ucla.edu>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
+
+hydra-core = "^1.3"
 tensorflow = "^2.11.0"
 wandb = "^0.13.9"
 
